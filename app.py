@@ -56,7 +56,15 @@ def predict():
     "HIMACHAL PRADESH":"Potato ,Poppy ,Ginger ,Soybean ,Oilseeds, Pulse" ,
     "JAMMU AND KASHMIR":"Wheat ,Maize ,Saffron ,Barley ,Bajra ,Jowar ,Gram , " "Apple ,Walnuts"  ,
     "KARNATAKA":"Paddy ,Jowar ,Silk ,Rubber ,Ragi ,Coffee ,Pepper ,Maize ,Sunflower ,Pineapple ,Sugarcane ,Cotton ,Tobacco ,Areca Nut" ,
-    "KERALA":"Coconut ,Silk ,Rubber ,Coffee ,Tea ,Ginger ,Cashew Nuts ,Black Pepper ,Small Cardamom"
+    "KERALA":"Coconut ,Silk ,Rubber ,Coffee ,Tea ,Ginger ,Cashew Nuts ,Black Pepper ,Small Cardamom",
+    "GOA":"Rice, Maize, Groundnut, Sugarcane" ,
+    "TELANGANA":"Jowar, Cotton, Rice, Maize, Soyabean" ,
+    "MANIPUR":"Sugarcane, Oilseeds, Maize, Potato, Chilli" ,
+    "NAGALAND":"Rice, Mustard, Soyabean, Coffee, Cardamon" ,
+    "UTTARAKHAND":"Rice, Wheat, Sugarcane, Maize, Pulses" ,
+    "TRIPURA":"Pineapple, Orange, Cashew nut, Jackfruit, Tea, Rubber, Coconut" ,
+    "MEGHALAYA":"Rice, Maize" ,
+    "MIZORAM":"Ginger, Cotton, Rice, Tapioca, Maize"
     }
     FISH=['Catla' , 'Rohu', 'Mrigal', 'Reba' ,'Bata' ,'Calbasu','Pengba', 'Common Carp', 'Grass Carp', 'Silver Carp', 'Magur', 'Singhi', 'Padba Catfish', 'Chital', 'Bronze Featherback','Mola Carplet', 'Climbing Perch', 'Ticto Barb', 'Pool Barb', 'Striped Murrel', 'Nile Tilapia', 'Red Tilapia', 'Golden Mahseer', 'Deccan Mahseer', 'Goldspot Mullet', 'Milkfish', 'Pearlspot', 'Long Whiskers Catfish', 'Striped Dwarf Catfish', 'Silver Pompano' ]
     pH_Min=[7.0, 6.5, 6.0, 6.5, 6.0, 6.5, 6.5, 7.0, 7.0, 6.5, 6.5, 7.0, 6.5, 6.8, 6.5, 6.5, 6.5, 6.0, 6.0, 6.5, 7.0, 7.0,6.5 , 6.5, 7.0, 7.0, 6.5, 6.0, 6.0, 7.0]
@@ -65,7 +73,7 @@ def predict():
     noteseg=""
     suggestion=""
     if output=="A":#add notes
-        s="Drinking WaterSource without conventional treatment but after disinfection"
+        s="Drinking Water Source without conventional treatment but after disinfection"
         f=0
         if tc2>50:
             f=1
